@@ -1,0 +1,36 @@
+CONFIGURACIÓN PARA EXPORTAR APK
+
+1. Instalar Android Build Support desde Unity Hub
+2. Instalar:
+   - SDK
+   - NDK
+   - OpenJDK
+
+3. Ir a:
+   File > Build Settings
+
+4. Seleccionar Android
+5. Presionar Switch Platform
+
+6. Player Settings:
+   - Company Name: TuNombre
+   - Product Name: Adventure3D
+   - Version: 1.0
+   - Package Name:
+     com.tunombre.adventure3d
+
+7. Resolution:
+   - Portrait o Landscape
+
+8. Other Settings:
+   - Scripting Backend:
+     IL2CPP
+
+9. Target Architectures:
+   ✔ ARMv7
+   ✔ ARM64
+
+10. Minimum API:
+   Android 7.0
+
+11. Build APK
